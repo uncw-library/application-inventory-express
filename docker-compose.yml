@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  inventory:
+    build: .
+    container_name: forwarder
+    image: libapps-admin.uncw.edu:8000/randall-dev/inventory-express
+    ports:
+      - "3001:3000"
+    env_file: .env
+    volumes: 
+      - ./app:/usr/src/app
+    command: npm run dev
+    restart: always
+
+networks:
+  db_network:
+    driver: bridge

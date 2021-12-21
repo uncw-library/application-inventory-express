@@ -1,0 +1,16 @@
+{{#each this.data.servers as |server|}}
+    {{#if server.apps}}
+        <p>{{server.name}}</p>
+        <p>{{server.ip}}</p>
+        <p>{{server.desc}}</p>
+        {{#each server.apps as |app|}}
+            <p>{{app.name}}</p>
+            {{#each app.tags as |tag|}}
+                <p>{{tag}}</p>
+            {{/each}}
+            <p>{{app.contact}}</p>
+            <p>{{app.url}}</p>
+            <p>{{app.desc}}</p>
+        {{/each}}
+    {{/if}}
+{{/each}}
