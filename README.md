@@ -10,14 +10,14 @@ Whenever you need to revise the data in inventory app:  pull this git repo, edit
   - After you're happy with your code changes:
   ```
   docker login libapps-admin.uncw.edu:8000
-  docker build --no-cache -t libapps-admin.uncw.edu:8000/randall-dev/inventory-express --platform linux/x86_64/v8 .
-  docker push libapps-admin.uncw.edu:8000/randall-dev/inventory-express
+  docker build --no-cache -t libapps-admin.uncw.edu:8000/randall-dev/application-inventory-express --platform linux/x86_64/v8 .
+  docker push libapps-admin.uncw.edu:8000/randall-dev/application-inventory-express
   ```
 
 ## Running a dev box
 
 
-Create a file at ./inventory-express/.env with contents: 
+Create a file at ./application-inventory-express/.env with contents: 
 ```
 NODE_ENV=development
 ```
