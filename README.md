@@ -2,8 +2,12 @@
 
 The express.js server reads the source_data.json on each page refresh.  The source_data.json contains all the details on servers, apps, app owners, app descriptions, app urls, etc.
 
-Whenever you need to revise the data in inventory app:  pull this git repo, edit the source_data.json file, docker build a new image, push the new image.
+Whenever you need to revise the data in inventory app:
 
+    pull this git repo
+    edit the source_data.json file
+    docker build a new image
+    push the new image.
 
 ## Building a production image
 
