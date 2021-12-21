@@ -16,4 +16,6 @@ RUN npm install
 COPY --chown=node:node app/ ./app
 WORKDIR /usr/src/app/
 
+EXPOSE 3000
+
 CMD npm start

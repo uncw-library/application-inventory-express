@@ -4,12 +4,11 @@ const { readFile } = require('fs').promises
 const router = express.Router()
 
 router.get('/', async (req, res, next) => {
-  res.redirect('/list')
+  res.redirect('/table')
 })
 
 router.get('/table', async (req, res, next) => {
   const parsedData = await loadSourceData(next)
-  // const tags = getTags(parsedData)
   const payload = {
     error: false,
     data: parsedData
@@ -31,18 +30,5 @@ async function loadSourceData () {
   const parsedData = JSON.parse(sourceData)
   return await parsedData
 }
-
-// function getTags(parsedData) {
-//   const allTags = new Set()
-//   for (let server of parsedData.servers) {
-//     for (let app of server.apps) {
-//       for (let tag of app.tags) {
-//         allTags.add(tag)
-//       }
-//     }
-//   }
-//   const sortedTags = [...allTags].sort()
-//   return sortedTags
-// }
 
 module.exports = router
