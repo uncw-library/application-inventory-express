@@ -2,8 +2,8 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const createError = require('http-errors')
 const favicon = require('serve-favicon')
-const hbs = require('hbs')
 const path = require('path')
+require('hbs')
 
 const router = require('./routes.js')
 

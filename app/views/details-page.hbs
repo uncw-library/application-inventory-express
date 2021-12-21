@@ -1,16 +1,66 @@
-{{#each this.data.servers as |server|}}
-    {{#if server.apps}}
-        <p>{{server.name}}</p>
-        <p>{{server.ip}}</p>
-        <p>{{server.desc}}</p>
-        {{#each server.apps as |app|}}
-            <p>{{app.name}}</p>
-            {{#each app.tags as |tag|}}
-                <p>{{tag}}</p>
-            {{/each}}
-            <p>{{app.contact}}</p>
-            <p>{{app.url}}</p>
-            <p>{{app.desc}}</p>
-        {{/each}}
-    {{/if}}
-{{/each}}
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+    {{#each this.data.servers as |server|}}
+      {{#if server.apps}}
+        <div class="col">
+          <div class="card bg-light">
+            <h5 class="card-header ">
+              {{server.name}}
+            </h5>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                {{#each server.apps as |app|}}
+                  <div class="accordion">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading{{app.id}}">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{app.id}}" aria-expanded="false" aria-controls="collapse{{app.id}}">
+                          {{app.name}}
+                        </button>
+                      </h2>
+                      <div id="collapse{{app.id}}" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <div class="card border-primary">
+                            {{#if app.url}}
+                              <div class="card-header text-center">
+                                <a href="{{app.url}}">Go to app</a>
+                              </div>
+                            {{/if}}
+                            <br>
+                            <div class="card-body text-dark">
+                              <div class="card-text border-success">{{app.desc}}</div>
+                              <br>
+                              {{#if app.contacts}}
+                                <div class="card-footer border-success">Contacts:
+                                  <ul>
+                                    {{#each app.contacts as |contact|}}
+                                      <li>{{contact}}</li> 
+                                    {{/each}}
+                                  </ul>
+                                </div>
+                              {{/if}}
+                              {{#if app.tags}}
+                                <div class="card-footer border-success">Tags:  
+                                  <ul>
+                                    {{#each app.tags as |tag|}}
+                                      <li>{{tag}}</li>
+                                    {{/each}}
+                                  </ul>
+                                </div>
+                              {{/if}}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+        </div>
+      {{/if}}
+    {{/each}}
+  </div>
+  <div id="collapsebutton" class="nodisp expandcollapse btn btn-small btn-success no-print" style="margin: 10px 0px;"><i class="glyphicon glyphicon-minus"></i> Collapse All</div>
+  <div id="expandbutton" class="disp expandcollapse btn btn-small btn-success no-print" style="margin: 10px 0px;"><i class="glyphicon glyphicon-plus"></i> Expand All</div>
+</div>
