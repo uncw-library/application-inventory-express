@@ -150,22 +150,6 @@
             "contacts": ["armstrongg@uncw.edu"]
         },
         {
-            "id": 65,
-            "name": "UNI 101 Quiz Application",
-            "desc": "A quiz application for the UNI 101 course. Allows staff to create and share quizzes - and provides students with an interface to take them.",
-            "url": "https://uni101.libapps.uncw.edu/",
-            "tags": ["API", "Koa", "React", "Postgres", "LDAP"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
-        },
-        {
-            "id": 66,
-            "name": "UNI 201 Quiz Application",
-            "desc": "A quiz application for the UNI 201 course. Allows staff to create and share quizzes - and provides students with an interface to take them.",
-            "url": "https://uni201.libapps.uncw.edu/",
-            "tags": ["API", "Koa", "React", "Postgres", "LDAP"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
-        },
-        {
             "id": 68,
             "name": "URL Shortener",
             "desc": "An application used for shortening links, similarly to Bitly or TinyURL. I.E. https://lib.uncw.edu/your-custom-url",

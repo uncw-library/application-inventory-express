@@ -5,9 +5,11 @@ The express.js server reads the source_data.json on each page refresh.  The sour
 Whenever you need to revise the data in inventory app:
 
     pull this git repo
+    docker compose up
     edit the source_data.json file
+    see if the revisions look good at http://localhost:3001
     docker build a new image
-    push the new image.
+    push the new image
 
 ## Building a production image
 
