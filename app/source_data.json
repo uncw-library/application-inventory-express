@@ -174,9 +174,9 @@
         {
             "id": 50,
             "name": "Application Inventory",
-            "desc": "The application inventory shows Randall Library's applications. Also, the api can be accessed at: application-inventory-api.libapps-staff.uncw.edu",
+            "desc": "The application inventory displays a list of Randall Library's applications.",
             "url": "https://application-inventory.libapps-staff.uncw.edu",
-            "tags": ["API", "LDAP", "React", "Koa", "Postgres"],
+            "tags": ["Express"],
             "contacts": ["weddled@uncw.edu", "armstrongg@uncw.edu"]
         },
         {
@@ -193,14 +193,6 @@
             "desc": "An application used for logging visits to Special Collections and Archives. This data can be viewed in a report format.",
             "url": "https://randall-reports.libapps-staff.uncw.edu/archives-special/",
             "tags": ["PHP", "MySQL"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
-        },
-        {
-            "id": 49,
-            "name": "A-Z Databases",
-            "desc": "This application was designed in an effort to try and reduce the a-z list on the main library site and the guides site into one single application. The api can be accessed at this url: a-z-databases.libapps-staff.uncw.edu The project is currently on hold.",
-            "url": "https://a-z-admin.libapps-staff.uncw.edu/",
-            "tags": ["In Development", "API", "Express", "React", "Postgres"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
         {
@@ -687,7 +679,7 @@
             "desc": "Floormaps on library.uncw.edu",
             "url": "https://library.uncw.edu/floormaps/",
             "tags": ["LDAP"],
-            "contacts": ["Danny", "Weddle"]
+            "contacts": ["weddled@uncw.edu"]
         }]
     },
     {
