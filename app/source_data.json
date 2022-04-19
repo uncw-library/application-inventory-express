@@ -19,7 +19,15 @@
             "desc": "This site features selected examples of applied learning experiences as described by students themselves. Here you can browse through the dozens of applied learning projects in the Gallery and learn about the types of applied learning projects occurring at UNCW.",
             "url": "https://applied-learning.libapps.uncw.edu/",
             "tags": ["MySQL", "Drupal", "LDAP"],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
+        },
+        {
+            "id": 85,
+            "name": "Archives Special",
+            "desc": "Archives Special is the library's website for the University Archives and Special Collections that are a part of the library.",
+            "url": "https://library.uncw.edu/archives_special/",
+            "tags": ["LDAP", "MySQL", "Drupal"],
+            "contacts": ["weddled@uncw.edu"]
         },
         {
             "id": 56,
@@ -27,6 +35,14 @@
             "desc": "The assignment calculator helps students write research papers by generating a schedule for them - based on a date range. ",
             "url": "https://assignment-calc.libapps.uncw.edu/",
             "tags": ["Express", "Angular"],
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+        },
+        {
+            "id": 89,
+            "name": "Cape Fear WWII",
+            "desc": "World War II: Through the Eyes of the Cape Fear External Website. It contains Art, maps, photographs of artifacts and interview transcripts document the important role the Cape Fear region's people played in the Second World War.",
+            "url": "https://library.uncw.edu/capefearww2/",
+            "tags": ["HTML"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
         {
@@ -62,6 +78,14 @@
             "contacts": ["Danny", "Weddle"]
         },
         {
+            "id": 158,
+            "name": "Escape Room (Tabula Rosa)",
+            "desc": "A virtual, choose-your-own-adventure library escape room, in which students attempt to solve puzzles to exit the room and end the game. This game is open to and marketed to all UNCW students and staff, but is especially heavily aimed at UNI 101, 201, and HON 110 students, who may be required to complete it by their professors. Students who need completion confirmation can fill out the completion certificate form at the end to automatically receive a certificate via Autocrat.",
+            "url": "https://library.uncw.edu/web/escape/index.html",
+            "tags": ["Twine"],
+            "contacts": ["sclippae@uncw.edu", "armstrongg@uncw.edu"]
+        },
+        {
             "id": 170,
             "name": "Exhibits (Omeka-S)",
             "desc": "Omeka is a free, flexible, and open source web-publishing platform for the display of library, museum, archives, and scholarly collections and exhibitions.",
@@ -86,6 +110,14 @@
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
         {
+            "id": 175,
+            "name": "In Training",
+            "desc": "In Training: Nursing Education in New Hanover County 1901-1966.",
+            "url": "https://library.uncw.edu/web/collections/intraining/",
+            "tags": ["HTML"],
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+        },
+        {
             "id": 60,
             "name": "Libapps Landing",
             "desc": "A landing page for our Libapps server - used to test the status of Libapps, and to ensure something is being served at the root domain.",
@@ -102,12 +134,44 @@
             "contacts": ["weddled@uncw.edu"]
         },
         {
+            "id": 177,
+            "name": "Henry Miller is Not Dead",
+            "desc": "",
+            "url": "https://library.uncw.edu/web/collections/miller/",
+            "tags": ["HTML"],
+            "contacts": []
+        },
+        {
+            "id": 178,
+            "name": "Montford Point Marines",
+            "desc": "",
+            "url": "https://library.uncw.edu/web/montford/",
+            "tags": ["HTML"],
+            "contacts": []
+        },
+        {
+            "id": 183,
+            "name": "Museum of World Cultures",
+            "desc": "",
+            "url": "https://library.uncw.edu/Museum/",
+            "tags": ["HTML"],
+            "contacts": []
+        },
+        {
             "id": 152,
             "name": "New Bento",
             "desc": "Used in some part of Drupal7 bento -- sections \"Journals, Magazines, & Newspapers by Title\" and \"Library Digital Collections\".\nFor usage instructions, see the repo at https://libapps-admin.uncw.edu/randall-dev/new-bento",
             "url": "https://new-bento.libapps.uncw.edu/",
             "tags": ["API", "Express", "Sierra API"],
             "contacts": ["armstrongg@uncw.edu"]
+        },
+        {
+            "id": 180,
+            "name": "Nicholas W. Schneck Diary",
+            "desc": "",
+            "url": "https://library.uncw.edu/web/collections/Schenck/main.html",
+            "tags": ["HTML"],
+            "contacts": []
         },
         {
             "id": 157,
@@ -126,6 +190,22 @@
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
         {
+            "id": 174,
+            "name": "Randall Explorer",
+            "desc": "",
+            "url": "https://library.uncw.edu/web/ar/",
+            "tags": ["HTML"],
+            "contacts": ["sclippae@uncw.edu", "fredrikssonm@uncw.edu"]
+        },
+        {
+            "id": 179,
+            "name": "Regional Art",
+            "desc": "The Visual Art Community of Wilmington & Southeastern NC: A Digital Exhibit",
+            "url": "https://library.uncw.edu/regional_art/",
+            "tags": ["HTML"],
+            "contacts": []
+        },
+        {
             "id": 62,
             "name": "Research Strategy",
             "desc": "This interactive tutorial guides you through the process of taking a research question or statement and creating an effective keyword search. Guidance on searching for articles and books is also provided. Information including your search statement as well as books and articles you identify can be e-mailed to you after you complete the tutorial.",
@@ -134,11 +214,35 @@
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
         {
+            "id": 181,
+            "name": "Scholarly Communication",
+            "desc": "",
+            "url": "https://library.uncw.edu/web/outreach/scholarly_communication/",
+            "tags": ["HTML"],
+            "contacts": []
+        },
+        {
             "id": 154,
             "name": "Strategic Plan Tracker demo",
             "desc": null,
             "url": "https://strategic-plan-demo.libapps.uncw.edu/",
             "tags": ["LDAP", "API", "Koa", "Postgres", "React"],
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+        },
+        {
+            "id": 182,
+            "name": "Surf",
+            "desc": "",
+            "url": "https://library.uncw.edu/surf/",
+            "tags": ["HTML"],
+            "contacts": []
+        },
+        {
+            "id": 173,
+            "name": "The 1898 Foundation",
+            "desc": "Contains Interview transcriptions, histories, a bibliography to print and electronic sources, and links to associated websites.",
+            "url": "https://library.uncw.edu/web/collections/1898Foundation/",
+            "tags": ["HTML"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
         {
@@ -297,7 +401,7 @@
             "desc": "An application which sends alerts to respective people when humidity in library locations rises above 59%. There are currently five humidity sensors (SC1, SC2, SC3, MOWC, ARCH). *This also talks to the JobLog db in MasterDB*",
             "url": null,
             "tags": ["NodeJS", "Postgres", "Job", "Email Notifications"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu", "williamsons@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
         {
             "id": 77,
@@ -305,7 +409,7 @@
             "desc": "A visualization of humidity data over the past month in various library locations. The current locations reporting humidity information are SC1, SC2, SC3, MOWC, and ARCH.",
             "url": "https://humidity-data.libapps-staff.uncw.edu",
             "tags": ["Express", "Postgres"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu", "williamsons@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
         {
             "id": 115,
@@ -535,7 +639,7 @@
             "id": 111,
             "name": "TAC Circulation Reports",
             "desc": "This is a reporting application used by TAC for tracking circulation desk transactions. It is also used for viewing TAC items and their current status.",
-            "url": "http://tac-circ-reports.libapps-staff.uncw.edu",
+            "url": "https://tac-circ-reports.libapps-staff.uncw.edu",
             "tags": ["LDAP", "Express", "Postgres"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
@@ -561,7 +665,7 @@
             "desc": "This is an automatic job used in conjunction with Jason's manual processes that assists with the transfer of fines and fees to student accounts. This job must be run every day (along with Jason's manual processes). This is a high-risk application, and failure of certain processes can result in duplicate/missing charges, as well as student confusion (automatic emails). ",
             "url": "",
             "tags": ["Sierra", "Postgres", "NodeJS"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu", "williamsons@uncw.edu", "flemingj@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu", "flemingj@uncw.edu"]
         },
         {
             "id": 113,
@@ -578,36 +682,12 @@
         "desc": "Server containing our main library website and important sub sites",
         "apps": [
         {
-            "id": 85,
-            "name": "Archives Special",
-            "desc": "Archives Special is the library's website for the University Archives and Special Collections that are a part of the library.",
-            "url": "https://library.uncw.edu/archives_special/",
-            "tags": ["LDAP", "MySQL", "Drupal"],
-            "contacts": ["weddled@uncw.edu"]
-        },
-        {
             "id": 87,
             "name": "Build",
             "desc": "BUILD (Beginning Undergraduate Information Literacy Development) consists of 6 modules designed to help you learn important information literacy skills. ",
             "url": "https://library.uncw.edu/build/",
             "tags": ["PHP"],
             "contacts": ["armstrongg@uncw.edu"]
-        },
-        {
-            "id": 89,
-            "name": "Cape Fear WWII",
-            "desc": "World War II: Through the Eyes of the Cape Fear External Website. It contains Art, maps, photographs of artifacts and interview transcripts document the important role the Cape Fear region's people played in the Second World War.",
-            "url": "https://library.uncw.edu/capefearww2/",
-            "tags": ["HTML"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
-        },
-        {
-            "id": 100,
-            "name": "Centuries of Service: Military Chaplains",
-            "desc": "Centuries of Service: Military Chaplains External Website. Contains Interview transcriptions, histories, a bibliography to print and electronic sources, and links to associated websites.",
-            "url": "https://library.uncw.edu/chaplains/",
-            "tags": ["HTML"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu", "knoxa@uncw.edu"]
         },
         {
             "id": 101,
@@ -624,14 +704,6 @@
             "url": "https://library.uncw.edu/deselection/public/login",
             "tags": ["Laravel", "PHP", "MySQL", "LDAP"],
             "contacts": ["weddled@uncw.edu"]
-        },
-        {
-            "id": 158,
-            "name": "Escape Room (Tabula Rosa)",
-            "desc": "A virtual, choose-your-own-adventure library escape room, in which students attempt to solve puzzles to exit the room and end the game. This game is open to and marketed to all UNCW students and staff, but is especially heavily aimed at UNI 101, 201, and HON 110 students, who may be required to complete it by their professors. Students who need completion confirmation can fill out the completion certificate form at the end to automatically receive a certificate via Autocrat.",
-            "url": "https://library.uncw.edu/web/escape/index.html",
-            "tags": ["Twine"],
-            "contacts": ["armstrongg@uncw.edu"]
         },
         {
             "id": 133,
@@ -664,6 +736,14 @@
             "url": "https://library.uncw.edu",
             "tags": ["Drupal", "MySQL", "LDAP"],
             "contacts": ["fredrikssonm@uncw.edu"]
+        },
+        {
+            "id": 176,
+            "name": "Manuscript",
+            "desc": "",
+            "url": "https://library.uncw.edu/web/collections/manuscript/",
+            "tags": ["HTML"],
+            "contacts": []
         },
         {
             "id": 161,
@@ -699,7 +779,7 @@
             "desc": "Illiad interlibrary loan software and apps",
             "url": "https://illiad.uncw.edu/",
             "tags": [],
-            "contacts": ["williamsons@uncw.edu", "flemingj@uncw.edu"]
+            "contacts": ["flemingj@uncw.edu"]
         }]
     },
     {
@@ -713,7 +793,7 @@
             "desc": "PastPerfect Museum software server and database",
             "url": null,
             "tags": [],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
         }]
     },
     {
@@ -733,7 +813,7 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
         }]
     },
     {
@@ -747,7 +827,7 @@
             "desc": "",
             "url": null,
             "tags": [],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
         },
         {
             "id": 121,
@@ -755,7 +835,7 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
         },
         {
             "id": 122,
@@ -763,7 +843,7 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
         },
         {
             "id": 119,
@@ -771,7 +851,7 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
         },
         {
             "id": 118,
@@ -779,7 +859,7 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
         }]
     },
     {
@@ -793,7 +873,7 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
         }]
     },
     {
@@ -805,17 +885,39 @@
             "id": 128,
             "name": "Archivesspace (public)",
             "desc": null,
-            "url": "http://archivesspace.uncw.edu/",
+            "url": "https://archivesspace.uncw.edu",
             "tags": [],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
         },
         {
             "id": 129,
             "name": "Aspace (staff)",
             "desc": null,
-            "url": null,
+            "url": "https://aspace.uncw.edu",
             "tags": [],
-            "contacts": ["williamsons@uncw.edu"]
+            "contacts": []
+        }]
+    },
+    {
+        "name": "archivesspace-dev.uncw.edu",
+        "ip": "152.20.7.156",
+        "desc": "",
+        "apps": [
+        {
+            "id": 171,
+            "name": "Archivesspace Dev (public)",
+            "desc": null,
+            "url": "https://archivesspace-dev.uncw.edu",
+            "tags": [],
+            "contacts": []
+        },
+        {
+            "id": 172,
+            "name": "Aspace Dev (staff)",
+            "desc": null,
+            "url": "https://aspace-dev.uncw.edu",
+            "tags": [],
+            "contacts": []
         }]
     },
     {
@@ -827,7 +929,7 @@
             "id": 130,
             "name": "Catalog",
             "desc": "The library catalogue search.",
-            "url": "http://libcat.uncw.edu",
+            "url": "https://libcat.uncw.edu",
             "tags": [],
             "contacts": ["flemingj@uncw.edu"]
         }]
