@@ -222,12 +222,12 @@
             "contacts": []
         },
         {
-            "id": 154,
-            "name": "Strategic Plan Tracker demo",
-            "desc": null,
-            "url": "https://strategic-plan-demo.libapps.uncw.edu/",
-            "tags": ["LDAP", "API", "Koa", "Postgres", "React"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "id": 166,
+            "name": "scholars.uncw.edu (Vivo)",
+            "desc": "Faculty profiles project, pulling data from DigitalMeasures.",
+            "url": "https://scholars.uncw.edu/",
+            "tags": [],
+            "contacts": ["kittingera@uncw.edu", "armstrongg@uncw.edu"]
         },
         {
             "id": 182,
@@ -932,34 +932,6 @@
             "url": "https://libcat.uncw.edu",
             "tags": [],
             "contacts": ["flemingj@uncw.edu"]
-        }]
-    },
-    {
-        "name": "randallwebtest-linux.uncw.edu",
-        "ip": "152.20.240.245",
-        "desc": "Server for testing changes to Drupal sites.",
-        "apps": []
-    },
-    {
-        "name": "randall-vivo.uncw.edu",
-        "ip": "152.20.242.6",
-        "desc": "scholars.uncw.edu (Vivo)",
-        "apps": [
-        {
-            "id": 166,
-            "name": "scholars.uncw.edu (Vivo)",
-            "desc": "Faculty profiles project, pulling data from DigitalMeasures.",
-            "url": "https://scholars.uncw.edu/",
-            "tags": [],
-            "contacts": ["kittingera@uncw.edu", "armstrongg@uncw.edu"]
-        },
-        {
-            "id": 169,
-            "name": "xml_to_turtle",
-            "desc": "A python script run daily by cron.  Converts the latest DigitalMeasures dataset into a Vivo dataset.",
-            "url": null,
-            "tags": [],
-            "contacts": ["armstrongg@uncw.edu"]
         }]
     }]
 }
