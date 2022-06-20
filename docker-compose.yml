@@ -3,7 +3,7 @@ version: '3.7'
 services:
   inventory:
     build: .
-    container_name: forwarder
+    container_name: inventory
     image: libapps-admin.uncw.edu:8000/randall-dev/application-inventory-express
     ports:
       - "3001:3000"
