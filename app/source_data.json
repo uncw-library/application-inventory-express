@@ -19,7 +19,7 @@
             "desc": "This site features selected examples of applied learning experiences as described by students themselves. Here you can browse through the dozens of applied learning projects in the Gallery and learn about the types of applied learning projects occurring at UNCW.",
             "url": "https://applied-learning.libapps.uncw.edu/",
             "tags": ["MySQL", "Drupal", "LDAP"],
-            "contacts": []
+            "contacts": ["weddled@uncw.edu"]
         },
         {
             "id": 85,
@@ -75,7 +75,7 @@
             "desc": "This is the main web site for Digital Makerspace. It uses some iframes from the makerspace-api app: https://digitalmakerspace.libapps.uncw.edu. ",
             "url": "https://digitalmakerspace.uncw.edu/",
             "tags": ["Drupal", "API", "HTML", "PHP", "JavaScript", "MySQL"],
-            "contacts": ["Danny", "Weddle"]
+            "contacts": ["weddled@uncw.edu"]
         },
         {
             "id": 158,
@@ -120,7 +120,7 @@
         {
             "id": 60,
             "name": "Libapps Landing",
-            "desc": "A landing page for our Libapps server - used to test the status of Libapps, and to ensure something is being served at the root domain.",
+            "desc": "A landing page for our Libapps server.",
             "url": "https://libapps.uncw.edu/",
             "tags": ["Express"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
@@ -160,7 +160,7 @@
         {
             "id": 152,
             "name": "New Bento",
-            "desc": "Used in some part of Drupal7 bento -- sections \"Journals, Magazines, & Newspapers by Title\" and \"Library Digital Collections\".\nFor usage instructions, see the repo at https://libapps-admin.uncw.edu/randall-dev/new-bento",
+            "desc": "Used in some part of Drupal7 bento -- sections \"Journals, Magazines, & Newspapers by Title\" and \"Library Digital Collections\".",
             "url": "https://new-bento.libapps.uncw.edu/",
             "tags": ["API", "Express", "Sierra API"],
             "contacts": ["armstrongg@uncw.edu"]
@@ -293,8 +293,8 @@
         },
         {
             "id": 88,
-            "name": "Archives & Special Collections Transactions",
-            "desc": "An application used for logging visits to Special Collections and Archives. This data can be viewed in a report format.",
+            "name": "Pre-2022 Archives & Special Collections Transactions",
+            "desc": "App supplanted by 'uncw.libinsight.com/center'. An application used for logging visits to Special Collections and Archives. This data can be viewed in a report format.",
             "url": "https://randall-reports.libapps-staff.uncw.edu/archives-special/",
             "tags": ["PHP", "MySQL"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
@@ -317,8 +317,8 @@
         },
         {
             "id": 90,
-            "name": "Circulation Desk",
-            "desc": "An application used for logging visits to the circulation desk. This data can be viewed in a report format.",
+            "name": "Pre-2022 Circulation Desk",
+            "desc": "App supplanted by 'uncw.libinsight.com/desk'.  An application used for logging visits to the circulation desk. This data can be viewed in a report format.",
             "url": "https://randall-reports.libapps-staff.uncw.edu/circdesk/",
             "tags": ["PHP", "MySQL"],
             "contacts": ["weddled@uncw.edu"]
@@ -388,14 +388,6 @@
             "contacts": ["weddled@uncw.edu"]
         },
         {
-            "id": 74,
-            "name": "Helpdesk (ITS)",
-            "desc": "The ITS ticketing system (OSTicket)",
-            "url": "https://helpdesk.libapps-staff.uncw.edu/scp/login.php",
-            "tags": ["LDAP", "MySQL", "Third Party"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
-        },
-        {
             "id": 76,
             "name": "Humidity Alerts Job",
             "desc": "An application which sends alerts to respective people when humidity in library locations rises above 59%. There are currently five humidity sensors (SC1, SC2, SC3, MOWC, ARCH). *This also talks to the JobLog db in MasterDB*",
@@ -430,7 +422,7 @@
         {
             "id": 79,
             "name": "Irregular Patrons Job",
-            "desc": "This is a job which notifies Nicole via email and generates a report of patrons whose expirations fall outside of normal bounds. The job runs every morning at 8:30. *This also talks to the JobLog db in MasterDB*",
+            "desc": "This job gives info on patrons whose expirations fall outside of normal bounds. The job runs every morning at 8:30. *This also talks to the JobLog db in MasterDB*",
             "url": null,
             "tags": ["Job", "Email Notifications", "NodeJS", "Sierra"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
@@ -470,7 +462,7 @@
         {
             "id": 127,
             "name": "New Faculty Job",
-            "desc": "Sends an email to Stephanie, Steve, and Jason when new faculty is registered into Sierra. This job runs every morning at 1:00 AM",
+            "desc": "This job reports when new faculty are registered into Sierra. This job runs every morning at 1:00 AM",
             "url": null,
             "tags": ["Job", "Sierra", "Email Notifications", "NodeJS"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
@@ -533,11 +525,11 @@
         },
         {
             "id": 86,
-            "name": "Randall Reports",
-            "desc": "An umbrella application that houses applications used by SC and Circulation for displaying reports.",
+            "name": "Pre-2022 Randall Reports",
+            "desc": "App supplanted by 'uncw.libinsight.com'. An umbrella application that houses applications used by SC and Circulation for displaying reports.",
             "url": "https://randall-reports.libapps-staff.uncw.edu/",
             "tags": ["PHP"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu", "armstrongg@uncw.edu"]
         },
         {
             "id": 125,
@@ -549,16 +541,16 @@
         },
         {
             "id": 91,
-            "name": "Reference Transactions",
-            "desc": "An application used for logging visits to Reference Help Desk. This data can be viewed in a report format.",
+            "name": "Pre-2022 Reference Transactions",
+            "desc": "App supplanted by 'uncw.libinsight.com/desk'. An application used for logging visits to Reference Help Desk. This data can be viewed in a report format.",
             "url": "https://randall-reports.libapps-staff.uncw.edu/refdeskform/refform1.php",
             "tags": ["PHP", "MySQL"],
             "contacts": ["weddled@uncw.edu"]
         },
         {
             "id": 92,
-            "name": "Remote Reference Statistics",
-            "desc": "Also called Randall Library Consultations and Remote Reference.\nAn application used for logging consultations and remote reference. This data can be viewed in a report format.",
+            "name": "Pre-2022 Remote Reference Statistics",
+            "desc": "App supplanted by 'uncw.libinsight.com/consult'. Also called Randall Library Consultations and Remote Reference.\nAn application used for logging consultations and remote reference. This data can be viewed in a report format.",
             "url": "https://randall-reports.libapps-staff.uncw.edu/remote-ref/",
             "tags": ["PHP", "MySQL"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
@@ -932,6 +924,36 @@
             "url": "https://libcat.uncw.edu",
             "tags": [],
             "contacts": ["flemingj@uncw.edu"]
+        }]
+    },
+    {
+        "name": "Vendor apps",
+        "ip": "",
+        "desc": "Apps not hosted at uncw",
+        "apps": [
+        {
+            "id": 184,
+            "name": "LibInsight Desk",
+            "desc": "An application used for logging visits to the circulation desk. This data can be viewed in a report format.",
+            "url": "https://uncw.libinsight.com/desk",
+            "tags": [],
+            "contacts": []
+        },
+        {
+            "id": 185,
+            "name": "LibInsight Center",
+            "desc": "An application used for logging visits to Special Collections and Archives. This data can be viewed in a report format.",
+            "url": "https://uncw.libinsight.com/center",
+            "tags": [],
+            "contacts": []
+        },
+        {
+            "id": 186,
+            "name": "LibInsight Consult",
+            "desc": "An application used for logging consultations and remote reference. This data can be viewed in a report format.",
+            "url": "https://uncw.libinsight.com/consult",
+            "tags": [],
+            "contacts": []
         }]
     }]
 }
