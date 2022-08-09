@@ -1,6 +1,36 @@
 {
     "servers": [
     {
+        "name": "3rd party apps",
+        "ip": "",
+        "desc": "Apps not hosted at uncw",
+        "apps": [
+        {
+            "id": 184,
+            "name": "Service Desk Transactions",
+            "desc": "A LibInsight application used for logging visits to the circulation desk. This data can be viewed in a report format.",
+            "url": "https://uncw.libinsight.com/desk",
+            "tags": [],
+            "contacts": []
+        },
+        {
+            "id": 186,
+            "name": "Non-Service Desk Reference and Consultations",
+            "desc": "A LibInsight application used for logging consultations and remote reference. This data can be viewed in a report format.",
+            "url": "https://uncw.libinsight.com/consult",
+            "tags": [],
+            "contacts": []
+        },
+        {
+            "id": 185,
+            "name": "CSENCAH Transactions",
+            "desc": "A LibInsight application used for logging visits to Center for Southeast North Carolina Archives and History (CSENCAH). This data can be viewed in a report format.",
+            "url": "https://uncw.libinsight.com/center",
+            "tags": [],
+            "contacts": []
+        }]
+    },
+    {
         "name": "libapps.uncw.edu",
         "ip": "152.20.7.89",
         "desc": "Server containing public-facing applications",
@@ -292,14 +322,6 @@
             "contacts": ["weddled@uncw.edu"]
         },
         {
-            "id": 88,
-            "name": "Pre-2022 Archives & Special Collections Transactions",
-            "desc": "App supplanted by 'uncw.libinsight.com/center'. An application used for logging visits to Special Collections and Archives. This data can be viewed in a report format.",
-            "url": "https://randall-reports.libapps-staff.uncw.edu/archives-special/",
-            "tags": ["PHP", "MySQL"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
-        },
-        {
             "id": 51,
             "name": "Barcode Lookup",
             "desc": "The barcode lookup application allows people to upload a file containing barcodes and recieve information about those items. The audience for this application is GovDocs and Cataloging.",
@@ -524,36 +546,12 @@
             "contacts": ["armstrongg@uncw.edu"]
         },
         {
-            "id": 86,
-            "name": "Pre-2022 Randall Reports",
-            "desc": "App supplanted by 'uncw.libinsight.com'. An umbrella application that houses applications used by SC and Circulation for displaying reports.",
-            "url": "https://randall-reports.libapps-staff.uncw.edu/",
-            "tags": ["PHP"],
-            "contacts": ["weddled@uncw.edu", "armstrongg@uncw.edu"]
-        },
-        {
             "id": 125,
             "name": "Randall Staff Report Links",
             "desc": "A list of reports that once lived on RandallStaff. These links now point to their new location on Libapps-staff.",
             "url": "https://randall-report-links.libapps-staff.uncw.edu/",
             "tags": ["HTML"],
             "contacts": ["weddled@uncw.edu"]
-        },
-        {
-            "id": 91,
-            "name": "Pre-2022 Reference Transactions",
-            "desc": "App supplanted by 'uncw.libinsight.com/desk'. An application used for logging visits to Reference Help Desk. This data can be viewed in a report format.",
-            "url": "https://randall-reports.libapps-staff.uncw.edu/refdeskform/refform1.php",
-            "tags": ["PHP", "MySQL"],
-            "contacts": ["weddled@uncw.edu"]
-        },
-        {
-            "id": 92,
-            "name": "Pre-2022 Remote Reference Statistics",
-            "desc": "App supplanted by 'uncw.libinsight.com/consult'. Also called Randall Library Consultations and Remote Reference.\nAn application used for logging consultations and remote reference. This data can be viewed in a report format.",
-            "url": "https://randall-reports.libapps-staff.uncw.edu/remote-ref/",
-            "tags": ["PHP", "MySQL"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
         {
             "id": 93,
@@ -666,6 +664,38 @@
             "url": "https://yii-apps.libapps-staff.uncw.edu/",
             "tags": ["LDAP", "HTML"],
             "contacts": ["weddled@uncw.edu"]
+        },
+        {
+            "id": 88,
+            "name": "[Historical Data] Archives & Special Collections Transactions",
+            "desc": "App replaced by 'uncw.libinsight.com/center'. Used for logging visits to Special Collections and Archives. This data can be viewed in a report format.",
+            "url": "https://randall-reports.libapps-staff.uncw.edu/archives-special/",
+            "tags": ["PHP", "MySQL"],
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+        },
+        {
+            "id": 86,
+            "name": "[Historical Data] Randall Reports",
+            "desc": "App supplanted by 'uncw.libinsight.com'. An umbrella application that houses applications used by SC and Circulation for displaying reports.",
+            "url": "https://randall-reports.libapps-staff.uncw.edu/",
+            "tags": ["PHP"],
+            "contacts": ["weddled@uncw.edu", "armstrongg@uncw.edu"]
+        },
+        {
+            "id": 91,
+            "name": "[Historical Data] Reference Transactions",
+            "desc": "App supplanted by 'uncw.libinsight.com/desk'. An application used for logging visits to Reference Help Desk. This data can be viewed in a report format.",
+            "url": "https://randall-reports.libapps-staff.uncw.edu/refdeskform/refform1.php",
+            "tags": ["PHP", "MySQL"],
+            "contacts": ["weddled@uncw.edu"]
+        },
+        {
+            "id": 92,
+            "name": "[Historical Data] Remote Reference Statistics",
+            "desc": "App supplanted by 'uncw.libinsight.com/consult'. Also called Randall Library Consultations and Remote Reference.\nAn application used for logging consultations and remote reference. This data can be viewed in a report format.",
+            "url": "https://randall-reports.libapps-staff.uncw.edu/remote-ref/",
+            "tags": ["PHP", "MySQL"],
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         }]
     },
     {
@@ -755,58 +785,10 @@
         }]
     },
     {
-        "name": "libpharos01.uncw.edu",
-        "ip": "152.20.225.221",
-        "desc": "Guest computer sign-in server, web app for circ use for monitoring and adding/removing users, admin and reporting software for the Pharos sign up system",
-        "apps": []
-    },
-    {
-        "name": "illiad.uncw.edu",
-        "ip": "152.20.225.230",
-        "desc": "Illiad interlibrary loan software and apps",
-        "apps": [
-        {
-            "id": 139,
-            "name": "Illiad ILL",
-            "desc": "Illiad interlibrary loan software and apps",
-            "url": "https://illiad.uncw.edu/",
-            "tags": [],
-            "contacts": ["flemingj@uncw.edu"]
-        }]
-    },
-    {
-        "name": "itslibpp01.uncw.edu",
-        "ip": "152.20.225.234",
-        "desc": "PastPerfect Museum software server and database",
-        "apps": [
-        {
-            "id": 140,
-            "name": "PastPerfect",
-            "desc": "PastPerfect Museum software server and database",
-            "url": null,
-            "tags": [],
-            "contacts": []
-        }]
-    },
-    {
         "name": "itsrandalldev.uncw.edu",
         "ip": "152.20.225.247",
         "desc": "Oxygen licensing server",
         "apps": []
-    },
-    {
-        "name": "liblink.uncw.edu",
-        "ip": "152.20.225.249",
-        "desc": "EZProxy server",
-        "apps": [
-        {
-            "id": 132,
-            "name": "EZProxy Server",
-            "desc": null,
-            "url": null,
-            "tags": [],
-            "contacts": []
-        }]
     },
     {
         "name": "itslibdigital.uncw.edu",
@@ -852,6 +834,20 @@
             "url": null,
             "tags": [],
             "contacts": []
+        }]
+    },
+    {
+        "name": "sierra-app.uncw.edu",
+        "ip": "152.20.242.96",
+        "desc": "",
+        "apps": [
+        {
+            "id": 130,
+            "name": "Catalog",
+            "desc": "The library catalogue search.",
+            "url": "https://libcat.uncw.edu",
+            "tags": [],
+            "contacts": ["flemingj@uncw.edu"]
         }]
     },
     {
@@ -913,47 +909,52 @@
         }]
     },
     {
-        "name": "sierra-app.uncw.edu",
-        "ip": "152.20.242.96",
-        "desc": "",
+        "name": "libpharos01.uncw.edu",
+        "ip": "152.20.225.221",
+        "desc": "Guest computer sign-in server, web app for circ use for monitoring and adding/removing users, admin and reporting software for the Pharos sign up system",
+        "apps": []
+    },
+    {
+        "name": "illiad.uncw.edu",
+        "ip": "152.20.225.230",
+        "desc": "Illiad interlibrary loan software and apps",
         "apps": [
         {
-            "id": 130,
-            "name": "Catalog",
-            "desc": "The library catalogue search.",
-            "url": "https://libcat.uncw.edu",
+            "id": 139,
+            "name": "Illiad ILL",
+            "desc": "Illiad interlibrary loan software and apps",
+            "url": "https://illiad.uncw.edu/",
             "tags": [],
             "contacts": ["flemingj@uncw.edu"]
         }]
     },
     {
-        "name": "Vendor apps",
-        "ip": "",
-        "desc": "Apps not hosted at uncw",
+        "name": "itslibpp01.uncw.edu",
+        "ip": "152.20.225.234",
+        "desc": "PastPerfect Museum software server and database",
         "apps": [
         {
-            "id": 184,
-            "name": "LibInsight Desk",
-            "desc": "An application used for logging visits to the circulation desk. This data can be viewed in a report format.",
-            "url": "https://uncw.libinsight.com/desk",
-            "tags": [],
-            "contacts": []
-        },
-        {
-            "id": 185,
-            "name": "LibInsight Center",
-            "desc": "An application used for logging visits to Special Collections and Archives. This data can be viewed in a report format.",
-            "url": "https://uncw.libinsight.com/center",
-            "tags": [],
-            "contacts": []
-        },
-        {
-            "id": 186,
-            "name": "LibInsight Consult",
-            "desc": "An application used for logging consultations and remote reference. This data can be viewed in a report format.",
-            "url": "https://uncw.libinsight.com/consult",
+            "id": 140,
+            "name": "PastPerfect",
+            "desc": "PastPerfect Museum software server and database",
+            "url": null,
             "tags": [],
             "contacts": []
         }]
-    }]
+    },
+        {
+        "name": "liblink.uncw.edu",
+        "ip": "152.20.225.249",
+        "desc": "EZProxy server",
+        "apps": [
+        {
+            "id": 132,
+            "name": "EZProxy Server",
+            "desc": null,
+            "url": null,
+            "tags": [],
+            "contacts": []
+        }]
+    }
+]
 }
