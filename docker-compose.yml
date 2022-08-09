@@ -1,9 +1,9 @@
 version: '3.7'
 
 services:
-  inventory:
+  application-inventory-express:
     build: .
-    container_name: inventory
+    container_name: application-inventory-express
     image: libapps-admin.uncw.edu:8000/randall-dev/application-inventory-express
     ports:
       - "3001:3000"
