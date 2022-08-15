@@ -669,7 +669,7 @@
             "id": 88,
             "name": "[Historical Data] Archives & Special Collections Transactions",
             "desc": "App replaced by 'uncw.libinsight.com/center'. Used for logging visits to Special Collections and Archives. This data can be viewed in a report format.",
-            "url": "https://randall-reports.libapps-staff.uncw.edu/archives-special/",
+            "url": "https://historical-randall-reports.libapps-staff.uncw.edu/archives-special/",
             "tags": ["PHP", "MySQL"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         },
@@ -677,7 +677,7 @@
             "id": 86,
             "name": "[Historical Data] Randall Reports",
             "desc": "App supplanted by 'uncw.libinsight.com'. An umbrella application that houses applications used by SC and Circulation for displaying reports.",
-            "url": "https://randall-reports.libapps-staff.uncw.edu/",
+            "url": "https://historical-randall-reports.libapps-staff.uncw.edu/",
             "tags": ["PHP"],
             "contacts": ["weddled@uncw.edu", "armstrongg@uncw.edu"]
         },
@@ -685,7 +685,7 @@
             "id": 91,
             "name": "[Historical Data] Reference Transactions",
             "desc": "App supplanted by 'uncw.libinsight.com/desk'. An application used for logging visits to Reference Help Desk. This data can be viewed in a report format.",
-            "url": "https://randall-reports.libapps-staff.uncw.edu/refdeskform/refform1.php",
+            "url": "https://historical-randall-reports.libapps-staff.uncw.edu/refdeskform/refform1.php",
             "tags": ["PHP", "MySQL"],
             "contacts": ["weddled@uncw.edu"]
         },
@@ -693,7 +693,7 @@
             "id": 92,
             "name": "[Historical Data] Remote Reference Statistics",
             "desc": "App supplanted by 'uncw.libinsight.com/consult'. Also called Randall Library Consultations and Remote Reference.\nAn application used for logging consultations and remote reference. This data can be viewed in a report format.",
-            "url": "https://randall-reports.libapps-staff.uncw.edu/remote-ref/",
+            "url": "https://historical-randall-reports.libapps-staff.uncw.edu/remote-ref/",
             "tags": ["PHP", "MySQL"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
         }]
