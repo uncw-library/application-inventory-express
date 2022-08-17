@@ -566,8 +566,16 @@
             "name": "Sierra Reports",
             "desc": "An umbrella application which houses several Sierra-based reports.",
             "url": "https://sierra-reports.libapps-staff.uncw.edu",
-            "tags": ["LDAP", "LDAP", "Sierra", "Express"],
+            "tags": ["LDAP", "Sierra", "Express"],
             "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+        },
+        {
+            "id": 187,
+            "name": "Sierra Patron Update",
+            "desc": "A job that updates sierra with data from Banner files.",
+            "url": null,
+            "tags": ["Job", "Sierra", "Banner"],
+            "contacts": ["armstrongg@uncw.edu", "flemingj@uncw.edu"]
         },
         {
             "id": 116,
