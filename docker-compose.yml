@@ -6,7 +6,7 @@ services:
     container_name: application-inventory-express
     image: libapps-admin.uncw.edu:8000/randall-dev/application-inventory-express
     ports:
-      - "3001:3000"
+      - "3000:3000"
     env_file: .env
     volumes: 
       - ./app:/usr/src/app

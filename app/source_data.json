@@ -11,7 +11,8 @@
             "desc": "A LibInsight application used for logging visits to the circulation desk. This data can be viewed in a report format.",
             "url": "https://uncw.libinsight.com/desk",
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 186,
@@ -19,7 +20,8 @@
             "desc": "A LibInsight application used for logging consultations and remote reference. This data can be viewed in a report format.",
             "url": "https://uncw.libinsight.com/consult",
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 185,
@@ -27,7 +29,8 @@
             "desc": "A LibInsight application used for logging visits to Center for Southeast North Carolina Archives and History (CSENCAH). This data can be viewed in a report format.",
             "url": "https://uncw.libinsight.com/center",
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         }]
     },
     {
@@ -41,7 +44,8 @@
             "desc": "An app displaying the status of 3D print jobs for the Digital Makerspace, as well as an image carousel of 3D printed items. This view is used on the long wedge display next to the Digital Makerspace.",
             "url": "https://print-queue.libapps.uncw.edu/",
             "tags": ["Express"],
-            "contacts": ["armstrongg@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 55,
@@ -49,7 +53,8 @@
             "desc": "This site features selected examples of applied learning experiences as described by students themselves. Here you can browse through the dozens of applied learning projects in the Gallery and learn about the types of applied learning projects occurring at UNCW.",
             "url": "https://applied-learning.libapps.uncw.edu/",
             "tags": ["MySQL", "Drupal", "LDAP"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 85,
@@ -57,7 +62,8 @@
             "desc": "Archives Special is the library's website for the University Archives and Special Collections that are a part of the library.",
             "url": "https://library.uncw.edu/archives_special/",
             "tags": ["LDAP", "MySQL", "Drupal"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 56,
@@ -65,7 +71,8 @@
             "desc": "The assignment calculator helps students write research papers by generating a schedule for them - based on a date range. ",
             "url": "https://assignment-calc.libapps.uncw.edu/",
             "tags": ["Express", "Angular"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 89,
@@ -73,7 +80,8 @@
             "desc": "World War II: Through the Eyes of the Cape Fear External Website. It contains Art, maps, photographs of artifacts and interview transcripts document the important role the Cape Fear region's people played in the Second World War.",
             "url": "https://library.uncw.edu/capefearww2/",
             "tags": ["HTML"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 164,
@@ -81,7 +89,8 @@
             "desc": "Makes carousel-type pages from sierra-db queries.  Used mainly by kiosks or iframes.",
             "url": "https://carousels.libapps.uncw.edu/",
             "tags": ["Express", "Sierra"],
-            "contacts": ["armstrongg@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 160,
@@ -89,7 +98,8 @@
             "desc": "Displays usage data for computers in Learning Commons and the Graduate Computer Labs. A script on these PC's pushes login information to an API housed within this application. This app also can be used to see a detailed report on the total logins for each computer/region. Uses a script in the Yii apps pub lccomputer directory.",
             "url": "https://compstats.libapps.uncw.edu/",
             "tags": ["LDAP", "PHP", "MySQL", "JavaScript"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 58,
@@ -97,7 +107,8 @@
             "desc": "This app allows patrons to search for courses/instructors and see the corresponding reserved titles.",
             "url": "https://course-reserves.libapps.uncw.edu/",
             "tags": ["Sierra", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 168,
@@ -105,7 +116,8 @@
             "desc": "This is the main web site for Digital Makerspace. It uses some iframes from the makerspace-api app: https://digitalmakerspace.libapps.uncw.edu. ",
             "url": "https://digitalmakerspace.uncw.edu/",
             "tags": ["Drupal", "API", "HTML", "PHP", "JavaScript", "MySQL"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 158,
@@ -113,7 +125,8 @@
             "desc": "A virtual, choose-your-own-adventure library escape room, in which students attempt to solve puzzles to exit the room and end the game. This game is open to and marketed to all UNCW students and staff, but is especially heavily aimed at UNI 101, 201, and HON 110 students, who may be required to complete it by their professors. Students who need completion confirmation can fill out the completion certificate form at the end to automatically receive a certificate via Autocrat.",
             "url": "https://library.uncw.edu/web/escape/index.html",
             "tags": ["Twine"],
-            "contacts": ["sclippae@uncw.edu", "armstrongg@uncw.edu"]
+            "contacts": ["sclippae@uncw.edu", "armstrongg@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 170,
@@ -121,7 +134,8 @@
             "desc": "Omeka is a free, flexible, and open source web-publishing platform for the display of library, museum, archives, and scholarly collections and exhibitions.",
             "url": "https://exhibits.libapps.uncw.edu",
             "tags": ["Omeka"],
-            "contacts": ["knoxa@uncw.edu", "armstrongg@uncw.edu"]
+            "contacts": ["knoxa@uncw.edu", "armstrongg@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 145,
@@ -129,7 +143,8 @@
             "desc": "Hosted JS file that allows us to use a feature from Third Iron in our installation of Summon",
             "url": "https://ex-libris-summon.libapps.uncw.edu/",
             "tags": ["HTML"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 146,
@@ -137,7 +152,8 @@
             "desc": "A tool used for patrons to find the specific stack corresponding to their item. Stacks/Collections can be added in the administrative panel. The below URL is an example of a highlighted stack corresponding to Call Number pm83\n\nhttps://findit.libapps.uncw.edu/stacks?callNumber=pm83&collection=General Collection",
             "url": "https://findit.libapps.uncw.edu/admin/login",
             "tags": ["LDAP"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 175,
@@ -145,7 +161,8 @@
             "desc": "In Training: Nursing Education in New Hanover County 1901-1966.",
             "url": "https://library.uncw.edu/web/collections/intraining/",
             "tags": ["HTML"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 60,
@@ -153,7 +170,8 @@
             "desc": "A landing page for our Libapps server.",
             "url": "https://libapps.uncw.edu/",
             "tags": ["Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 61,
@@ -161,7 +179,8 @@
             "desc": "The official website of the Digital Makerspace. This site is used to advertise the space, as well as offer management tools.",
             "url": "https://digitalmakerspace.uncw.edu/",
             "tags": ["Postgres", "React", "API", "Koa", "LDAP"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 177,
@@ -169,7 +188,8 @@
             "desc": "",
             "url": "https://library.uncw.edu/web/collections/miller/",
             "tags": ["HTML"],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 178,
@@ -177,7 +197,8 @@
             "desc": "",
             "url": "https://library.uncw.edu/web/montford/",
             "tags": ["HTML"],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 183,
@@ -185,7 +206,8 @@
             "desc": "",
             "url": "https://library.uncw.edu/Museum/",
             "tags": ["HTML"],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 152,
@@ -193,7 +215,8 @@
             "desc": "Used in some part of Drupal7 bento -- sections \"Journals, Magazines, & Newspapers by Title\" and \"Library Digital Collections\".",
             "url": "https://new-bento.libapps.uncw.edu/",
             "tags": ["API", "Express", "Sierra API"],
-            "contacts": ["armstrongg@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 180,
@@ -201,7 +224,8 @@
             "desc": "",
             "url": "https://library.uncw.edu/web/collections/Schenck/main.html",
             "tags": ["HTML"],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 157,
@@ -209,7 +233,8 @@
             "desc": "An app created by Tamara Ivins & OeL using Articulate Storyline for teaching plagiarism.\nSee readme at https://libapps-admin.uncw.edu/randall-dev/plagiarism-tutorial",
             "url": "https://plagiarism-tutorial.libapps.uncw.edu/",
             "tags": ["HTML"],
-            "contacts": ["armstrongg@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 64,
@@ -217,7 +242,8 @@
             "desc": "This application gives users book recommendation based on key themes. These books are found in the 'New and Popular' section. Users can text themselves the barcode of the suggested book using the linked Twilio application.",
             "url": "https://popular-books.libapps.uncw.edu/",
             "tags": ["Sierra", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 174,
@@ -225,7 +251,8 @@
             "desc": "",
             "url": "https://library.uncw.edu/web/ar/",
             "tags": ["HTML"],
-            "contacts": ["sclippae@uncw.edu", "fredrikssonm@uncw.edu"]
+            "contacts": ["sclippae@uncw.edu", "fredrikssonm@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 179,
@@ -233,7 +260,8 @@
             "desc": "The Visual Art Community of Wilmington & Southeastern NC: A Digital Exhibit",
             "url": "https://library.uncw.edu/regional_art/",
             "tags": ["HTML"],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 62,
@@ -241,7 +269,8 @@
             "desc": "This interactive tutorial guides you through the process of taking a research question or statement and creating an effective keyword search. Guidance on searching for articles and books is also provided. Information including your search statement as well as books and articles you identify can be e-mailed to you after you complete the tutorial.",
             "url": "https://research-strategy.uncw.edu/",
             "tags": ["React"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 181,
@@ -249,7 +278,8 @@
             "desc": "",
             "url": "https://library.uncw.edu/web/outreach/scholarly_communication/",
             "tags": ["HTML"],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 166,
@@ -257,7 +287,8 @@
             "desc": "Faculty profiles project, pulling data from DigitalMeasures.",
             "url": "https://scholars.uncw.edu/",
             "tags": [],
-            "contacts": ["kittingera@uncw.edu", "armstrongg@uncw.edu"]
+            "contacts": ["kittingera@uncw.edu", "armstrongg@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 182,
@@ -265,7 +296,8 @@
             "desc": "",
             "url": "https://library.uncw.edu/surf/",
             "tags": ["HTML"],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 173,
@@ -273,7 +305,8 @@
             "desc": "Contains Interview transcriptions, histories, a bibliography to print and electronic sources, and links to associated websites.",
             "url": "https://library.uncw.edu/web/collections/1898Foundation/",
             "tags": ["HTML"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 67,
@@ -281,7 +314,8 @@
             "desc": "An application used for sending messages/callnumbers via SMS. This application is embedded in the Popular Book application, as well as the Virtual Shelf application.",
             "url": "https://twilio.libapps.uncw.edu/",
             "tags": ["Express"],
-            "contacts": ["armstrongg@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 68,
@@ -289,7 +323,8 @@
             "desc": "An application used for shortening links, similarly to Bitly or TinyURL. I.E. https://lib.uncw.edu/your-custom-url",
             "url": "https://url-shortener.libapps.uncw.edu/",
             "tags": ["Postgres", "LDAP", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 69,
@@ -297,7 +332,8 @@
             "desc": "An application used within the catalog for displaying neighboring items in a 'virtual shelf' interface.",
             "url": "https://virtual-shelf.libapps.uncw.edu/?location=Juvenile Fiction&callNum=R796hcu 2016",
             "tags": ["Sierra", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         }]
     },
     {
@@ -311,7 +347,8 @@
             "desc": "The application inventory displays a list of Randall Library's applications.",
             "url": "https://application-inventory.libapps-staff.uncw.edu",
             "tags": ["Express"],
-            "contacts": ["weddled@uncw.edu", "armstrongg@uncw.edu"]
+            "contacts": ["weddled@uncw.edu", "armstrongg@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 114,
@@ -319,7 +356,8 @@
             "desc": "A report of patrons who have registered to visit Library Archives.",
             "url": "https://yii-apps.libapps-staff.uncw.edu/archives_patrons/site/login",
             "tags": ["LDAP", "Yii", "MySQL"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 51,
@@ -327,7 +365,8 @@
             "desc": "The barcode lookup application allows people to upload a file containing barcodes and recieve information about those items. The audience for this application is GovDocs and Cataloging.",
             "url": "https://sierra-reports.libapps-staff.uncw.edu/",
             "tags": ["Sierra", "LDAP", "Express"],
-            "contacts": ["armstrongg@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 156,
@@ -335,7 +374,8 @@
             "desc": "For use by Drupal9 bento search.  A json API.  For more details see:  https://libapps-admin.uncw.edu/randall-dev/bento-api",
             "url": "https://bento-api.libapps-staff.uncw.edu/",
             "tags": ["API", "Express", "Sierra API"],
-            "contacts": ["armstrongg@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 90,
@@ -343,7 +383,8 @@
             "desc": "App supplanted by 'uncw.libinsight.com/desk'.  An application used for logging visits to the circulation desk. This data can be viewed in a report format.",
             "url": "https://randall-reports.libapps-staff.uncw.edu/circdesk/",
             "tags": ["PHP", "MySQL"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 149,
@@ -351,7 +392,8 @@
             "desc": "Circulation statistics for checkouts",
             "url": "https://circ-reports.libapps-staff.uncw.edu",
             "tags": ["LDAP", "Job", "Postgres", "Sierra", "Express"],
-            "contacts": ["flemingj@uncw.edu,", "weddled@uncw.edu,", "armstrongg@uncw.edu"]
+            "contacts": ["flemingj@uncw.edu", "weddled@uncw.edu", "armstrongg@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 104,
@@ -359,7 +401,8 @@
             "desc": "A Sierra report of UNCW subscriptions - both physical and electronic, and their corresponding cash balances.",
             "url": "https://sierra-reports.libapps-staff.uncw.edu/continuing-resources/main",
             "tags": ["Sierra", "LDAP", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 124,
@@ -367,7 +410,8 @@
             "desc": "A collection of forms/reports used for the Research Help Desk",
             "url": "https://desk-links.libapps-staff.uncw.edu/",
             "tags": ["HTML"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 95,
@@ -375,7 +419,8 @@
             "desc": "A Sierra report which shows patrons with duplicate email addresses.",
             "url": "https://sierra-reports.libapps-staff.uncw.edu/duplicate-patrons",
             "tags": ["Sierra", "Express", "LDAP"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 148,
@@ -383,7 +428,8 @@
             "desc": "A list of displays which show events using the EMS API.",
             "url": "https://ems-reservation-display.libapps-staff.uncw.edu/",
             "tags": ["Express"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 96,
@@ -391,7 +437,8 @@
             "desc": "A Sierra Report which shows departmental funds for each fiscal year. This list also shows a detailed list of individual titles for the given department.",
             "url": "https://sierra-reports.libapps-staff.uncw.edu/fund-report",
             "tags": ["Sierra", "Express", "LDAP"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 73,
@@ -399,7 +446,8 @@
             "desc": "This is a report application that shows the clickthroughs for government document links.",
             "url": "https://gov-docs.libapps-staff.uncw.edu/?year=2018&month=10",
             "tags": ["Sierra", "FTP", "Express", "LDAP"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 75,
@@ -407,7 +455,8 @@
             "desc": "The EResources ticketing system (OSTicket)",
             "url": "https://helpdesk-eresources.libapps-staff.uncw.edu/scp/login.php",
             "tags": ["LDAP", "MySQL", "Third Party"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 76,
@@ -415,7 +464,8 @@
             "desc": "An application which sends alerts to respective people when humidity in library locations rises above 59%. There are currently five humidity sensors (SC1, SC2, SC3, MOWC, ARCH). *This also talks to the JobLog db in MasterDB*",
             "url": null,
             "tags": ["NodeJS", "Postgres", "Job", "Email Notifications"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 77,
@@ -423,7 +473,8 @@
             "desc": "A visualization of humidity data over the past month in various library locations. The current locations reporting humidity information are SC1, SC2, SC3, MOWC, and ARCH.",
             "url": "https://humidity-data.libapps-staff.uncw.edu",
             "tags": ["Express", "Postgres"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 115,
@@ -431,7 +482,8 @@
             "desc": "This application shows statistics of RIS instruction.\n\nNote: This was removed from yii-apps in January 2019",
             "url": "https://instruction.libapps-staff.uncw.edu",
             "tags": ["LDAP", "LDAP", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 78,
@@ -439,7 +491,8 @@
             "desc": "An application used to assist in shelf-reading. Also allows the user to track missing items in the collection. (Optimized for mobile)",
             "url": "https://libapps-staff.uncw.edu/inventory",
             "tags": ["LDAP", "Express", "Postgres", "Sierra", "Angular"],
-            "contacts": ["armstrongg@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 79,
@@ -447,7 +500,8 @@
             "desc": "This job gives info on patrons whose expirations fall outside of normal bounds. The job runs every morning at 8:30. *This also talks to the JobLog db in MasterDB*",
             "url": null,
             "tags": ["Job", "Email Notifications", "NodeJS", "Sierra"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 105,
@@ -455,7 +509,8 @@
             "desc": "A Sierra report of item records based on their corresponding category type (Ebook, CD, Videorecording, etc.)",
             "url": "https://sierra-reports.libapps-staff.uncw.edu/items-by-material",
             "tags": ["LDAP", "Sierra", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 103,
@@ -463,7 +518,8 @@
             "desc": "A Sierra Report which shows a list of items based on various filters such as billed, damaged, lost, etc.",
             "url": "https://sierra-reports.libapps-staff.uncw.edu/item-status",
             "tags": ["LDAP", "Sierra", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 80,
@@ -471,7 +527,8 @@
             "desc": "Notifies developers via email if any automatic jobs fail to run on a given day. This job runs at 5:00 every evening.",
             "url": null,
             "tags": ["Postgres", "Email Notifications", "Job", "NodeJS"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 81,
@@ -479,7 +536,8 @@
             "desc": "A landing page for our Libapps-staff server - used to test the status of Libapps-staff, and to ensure something is being served at the root domain.\n",
             "url": "https://libapps-staff.uncw.edu/",
             "tags": ["Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 127,
@@ -487,7 +545,8 @@
             "desc": "This job reports when new faculty are registered into Sierra. This job runs every morning at 1:00 AM",
             "url": null,
             "tags": ["Job", "Sierra", "Email Notifications", "NodeJS"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 126,
@@ -495,7 +554,8 @@
             "desc": "An automated job that runs every Monday at 1:00 AM. This job generates 3 CSV files for Gary, reporting on the keywords, titles, and journals that yielded no results in the catalog search. This file is stored in Libstore",
             "url": null,
             "tags": ["NodeJS", "Job"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 162,
@@ -503,7 +563,8 @@
             "desc": "Accepts a text file of OCLC numbers (one per line).  Returns a csv of [Bib, Oclc].",
             "url": "https://sierra-reports.libapps-staff.uncw.edu/oclc-to-bib",
             "tags": ["Sierra", "Express", "LDAP"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 99,
@@ -511,7 +572,8 @@
             "desc": "A Sierra Report which shows a list of overdue items for a given date range.",
             "url": "https://sierra-reports.libapps-staff.uncw.edu/overdue-items",
             "tags": ["LDAP", "Sierra", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 97,
@@ -519,7 +581,8 @@
             "desc": "A Sierra Report which shows items with a price of zero that are due within a specified date range.",
             "url": "https://sierra-reports.libapps-staff.uncw.edu/price-list",
             "tags": ["LDAP", "Sierra", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 83,
@@ -527,7 +590,8 @@
             "desc": "Electronic form for staff evaluations.",
             "url": "https://prse.libapps-staff.uncw.edu/",
             "tags": ["LDAP", "Drupal", "MySQL"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 84,
@@ -535,7 +599,8 @@
             "desc": "This is a job that notifies patrons who have opted in when an item they have requested arrive. The job runs at 5:00 every evening.",
             "url": null,
             "tags": ["Email Notifications", "Job", "Sierra", "NodeJS"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 143,
@@ -543,7 +608,8 @@
             "desc": "The Randall Art Inventory Application displays the available artwork in the Randall Library Collection.  Through it, one can request to checkout a piece.",
             "url": "https://randall-art-inventory.libapps-staff.uncw.edu/",
             "tags": ["HTML"],
-            "contacts": ["armstrongg@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 125,
@@ -551,7 +617,8 @@
             "desc": "A list of reports that once lived on RandallStaff. These links now point to their new location on Libapps-staff.",
             "url": "https://randall-report-links.libapps-staff.uncw.edu/",
             "tags": ["HTML"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 93,
@@ -559,7 +626,8 @@
             "desc": "An application for managing images for the rotating displays near the Circ Desk, in Learning Commons, Kiosk, and GovDocs.",
             "url": "https://randall-rotations.libapps-staff.uncw.edu/",
             "tags": ["Laravel", "MySQL"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 94,
@@ -567,7 +635,8 @@
             "desc": "An umbrella application which houses several Sierra-based reports.",
             "url": "https://sierra-reports.libapps-staff.uncw.edu",
             "tags": ["LDAP", "Sierra", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 187,
@@ -575,7 +644,8 @@
             "desc": "A job that updates sierra with data from Banner files.",
             "url": null,
             "tags": ["Job", "Sierra", "Banner"],
-            "contacts": ["armstrongg@uncw.edu", "flemingj@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "flemingj@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 116,
@@ -583,7 +653,8 @@
             "desc": "This application is used to track visits to Special Collections.",
             "url": "https://yii-apps.libapps-staff.uncw.edu/special_patrons/site/login",
             "tags": ["LDAP", "Yii", "MySQL"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 106,
@@ -591,7 +662,8 @@
             "desc": "Randall Staff website for forms, surveys, evaluations, etc.",
             "url": "https://staff.libapps-staff.uncw.edu/",
             "tags": ["LDAP", "Drupal", "MySQL"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 107,
@@ -599,7 +671,8 @@
             "desc": "An application used for tracking progress on the Randall Library Strategic Plan. The progress within various categories is also rendered as a graph for better visualization.",
             "url": "https://strategic-plan-tracker.libapps-staff.uncw.edu/. ",
             "tags": ["LDAP", "LDAP", "API", "React", "Postgres", "Koa"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 109,
@@ -607,7 +680,8 @@
             "desc": "This is a job which generates a file of records and places it on the Summon ftp server. These items are removed from summons. This job runs every morning at 1:00.",
             "url": null,
             "tags": ["Job", "FTP", "NodeJS", "Sierra"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 98,
@@ -615,7 +689,8 @@
             "desc": "A Sierra Report which shows a list of items removed from the Summons Deletes process on given days.",
             "url": "https://sierra-reports.libapps-staff.uncw.edu/summon-deletes",
             "tags": ["LDAP", "Sierra", "Express"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 110,
@@ -623,7 +698,8 @@
             "desc": "This job generates a file of records that is placed on the Summon ftp server. These records are updated in Summon. This job runs every morning at 1:00.",
             "url": null,
             "tags": ["Job", "FTP", "NodeJS", "Sierra"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 165,
@@ -631,7 +707,8 @@
             "desc": "A node.js job that runs daily at 1am.  It writes to a database used by TAC Circ Reports app.  This job must run once every day, else statistics will be skewed.",
             "url": "",
             "tags": ["Job", "NodeJS", "Sierra"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 111,
@@ -639,7 +716,8 @@
             "desc": "This is a reporting application used by TAC for tracking circulation desk transactions. It is also used for viewing TAC items and their current status.",
             "url": "https://tac-circ-reports.libapps-staff.uncw.edu",
             "tags": ["LDAP", "Express", "Postgres"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 123,
@@ -647,7 +725,8 @@
             "desc": "An API with a single POST route for tracking usage across various applications. Stores login information into ApplicationUsage on Master DB",
             "url": "https://track-login-api.libapps-staff.uncw.edu/api/v1/login",
             "tags": ["API", "Koa"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 167,
@@ -655,7 +734,8 @@
             "desc": "TAC/circ use this webapp to mark items as \"Searched\".  It passes that message to the transfers job via writing to the transfers db.  ",
             "url": "https://transfer-items.libapps-staff.uncw.edu/login",
             "tags": ["Express", "LDAP"],
-            "contacts": ["flemingj@uncw.edu", "armstrongg@uncw.edu"]
+            "contacts": ["flemingj@uncw.edu", "armstrongg@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 112,
@@ -663,7 +743,8 @@
             "desc": "This is an automatic job used in conjunction with Jason's manual processes that assists with the transfer of fines and fees to student accounts. This job must be run every day (along with Jason's manual processes). This is a high-risk application, and failure of certain processes can result in duplicate/missing charges, as well as student confusion (automatic emails). ",
             "url": "",
             "tags": ["Sierra", "Postgres", "NodeJS"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu", "flemingj@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu", "flemingj@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 113,
@@ -671,7 +752,8 @@
             "desc": "An umbrella application that houses applications build with the PHP framework Yii.",
             "url": "https://yii-apps.libapps-staff.uncw.edu/",
             "tags": ["LDAP", "HTML"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 88,
@@ -679,7 +761,8 @@
             "desc": "App replaced by 'uncw.libinsight.com/center'. Used for logging visits to Special Collections and Archives. This data can be viewed in a report format.",
             "url": "https://historical-randall-reports.libapps-staff.uncw.edu/archives-special/",
             "tags": ["PHP", "MySQL"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 86,
@@ -687,7 +770,8 @@
             "desc": "App supplanted by 'uncw.libinsight.com'. An umbrella application that houses applications used by SC and Circulation for displaying reports.",
             "url": "https://historical-randall-reports.libapps-staff.uncw.edu/",
             "tags": ["PHP"],
-            "contacts": ["weddled@uncw.edu", "armstrongg@uncw.edu"]
+            "contacts": ["weddled@uncw.edu", "armstrongg@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 91,
@@ -695,7 +779,8 @@
             "desc": "App supplanted by 'uncw.libinsight.com/desk'. An application used for logging visits to Reference Help Desk. This data can be viewed in a report format.",
             "url": "https://historical-randall-reports.libapps-staff.uncw.edu/refdeskform/refform1.php",
             "tags": ["PHP", "MySQL"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "campus"
         },
         {
             "id": 92,
@@ -703,7 +788,8 @@
             "desc": "App supplanted by 'uncw.libinsight.com/consult'. Also called Randall Library Consultations and Remote Reference.\nAn application used for logging consultations and remote reference. This data can be viewed in a report format.",
             "url": "https://historical-randall-reports.libapps-staff.uncw.edu/remote-ref/",
             "tags": ["PHP", "MySQL"],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "campus"
         }]
     },
     {
@@ -717,7 +803,8 @@
             "desc": "BUILD (Beginning Undergraduate Information Literacy Development) consists of 6 modules designed to help you learn important information literacy skills. ",
             "url": "https://library.uncw.edu/build/",
             "tags": ["PHP"],
-            "contacts": ["armstrongg@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 101,
@@ -725,7 +812,8 @@
             "desc": "Ann application that shows where people are pressing on our touchkiosk application.",
             "url": "https://library.uncw.edu/clickheat/",
             "tags": [],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 163,
@@ -733,7 +821,8 @@
             "desc": "Go to https://library.uncw.edu/deselection to view the list and provide feedback. Login with your UNCW login and password. Click a Library of Congress class letter to get the title lists. Click on a title for more details and/or to comment.",
             "url": "https://library.uncw.edu/deselection/public/login",
             "tags": ["Laravel", "PHP", "MySQL", "LDAP"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 133,
@@ -741,7 +830,8 @@
             "desc": "A view for displaying availability for the group study rooms. Not currently in use. Normally lives on the kiosk near the group study rooms. Also lives at https://library.uncw.edu/group_study_availability_info_kiosk/\nTied to:  https://library.uncw.edu/room_reservations",
             "url": "https://library.uncw.edu/group_study_availability/",
             "tags": [],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 134,
@@ -749,7 +839,8 @@
             "desc": null,
             "url": "https://library.uncw.edu/guide_duplicates/",
             "tags": [],
-            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"]
+            "contacts": ["armstrongg@uncw.edu", "weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 135,
@@ -757,7 +848,8 @@
             "desc": null,
             "url": "https://library.uncw.edu/guides",
             "tags": ["Drupal", "LDAP"],
-            "contacts": ["fredrikssonm@uncw.edu"]
+            "contacts": ["fredrikssonm@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 131,
@@ -765,7 +857,8 @@
             "desc": "The main library website",
             "url": "https://library.uncw.edu",
             "tags": ["Drupal", "MySQL", "LDAP"],
-            "contacts": ["fredrikssonm@uncw.edu"]
+            "contacts": ["fredrikssonm@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 176,
@@ -773,7 +866,8 @@
             "desc": "",
             "url": "https://library.uncw.edu/web/collections/manuscript/",
             "tags": ["HTML"],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 161,
@@ -781,7 +875,8 @@
             "desc": "This is a set of 5 scripts that generates RSS feeds for new books, music, and videos that have been recently added to the UNCW library. The script actually reside on the main library site: library.uncw.edu.",
             "url": "https://library.uncw.edu/rssscripts/generaterss.php",
             "tags": ["Postgres", "PHP"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "internet"
         },
         {
             "id": 151,
@@ -789,7 +884,8 @@
             "desc": "Floormaps on library.uncw.edu",
             "url": "https://library.uncw.edu/floormaps/",
             "tags": ["LDAP"],
-            "contacts": ["weddled@uncw.edu"]
+            "contacts": ["weddled@uncw.edu"],
+            "scope": "internet"
         }]
     },
     {
@@ -809,7 +905,8 @@
             "desc": "",
             "url": null,
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 121,
@@ -817,7 +914,8 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 122,
@@ -825,7 +923,8 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 119,
@@ -833,7 +932,8 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 118,
@@ -841,7 +941,8 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         }]
     },
     {
@@ -855,7 +956,8 @@
             "desc": "The library catalogue search.",
             "url": "https://libcat.uncw.edu",
             "tags": [],
-            "contacts": ["flemingj@uncw.edu"]
+            "contacts": ["flemingj@uncw.edu"],
+            "scope": "internet"
         }]
     },
     {
@@ -869,7 +971,8 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         }]
     },
     {
@@ -883,7 +986,8 @@
             "desc": null,
             "url": "https://archivesspace.uncw.edu",
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 129,
@@ -891,7 +995,8 @@
             "desc": null,
             "url": "https://aspace.uncw.edu",
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         }]
     },
     {
@@ -905,7 +1010,8 @@
             "desc": null,
             "url": "https://archivesspace-dev.uncw.edu",
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         },
         {
             "id": 172,
@@ -913,7 +1019,8 @@
             "desc": null,
             "url": "https://aspace-dev.uncw.edu",
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         }]
     },
     {
@@ -933,7 +1040,8 @@
             "desc": "Illiad interlibrary loan software and apps",
             "url": "https://illiad.uncw.edu/",
             "tags": [],
-            "contacts": ["flemingj@uncw.edu"]
+            "contacts": ["flemingj@uncw.edu"],
+            "scope": "internet"
         }]
     },
     {
@@ -947,10 +1055,11 @@
             "desc": "PastPerfect Museum software server and database",
             "url": null,
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         }]
     },
-        {
+    {
         "name": "liblink.uncw.edu",
         "ip": "152.20.225.249",
         "desc": "EZProxy server",
@@ -961,8 +1070,8 @@
             "desc": null,
             "url": null,
             "tags": [],
-            "contacts": []
+            "contacts": [],
+            "scope": "internet"
         }]
-    }
-]
+    }]
 }
