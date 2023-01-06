@@ -10,7 +10,7 @@
                 <h4>{{server.name}}</h4>
                   {{#each server.apps as |app|}}
                     {{#if app.url}}
-                      <div><a href="{{app.url}}">{{app.name}}</a></div>
+                      <div><a href="{{app.url}}" target="_blank">{{app.name}}</a></div>
                     {{else}}
                       <div>{{app.name}}</div>
                     {{/if}}

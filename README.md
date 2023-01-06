@@ -4,12 +4,12 @@ The express.js server reads the source_data.json on each page refresh.  The sour
 
 Whenever you need to revise the data in inventory app:
 
-    pull this git repo
-    docker compose up
-    edit the source_data.json file
-    see if the revisions look good at http://localhost:3001
-    docker build a new image
-    push the new image
+  - pull this git repo
+  - docker compose up
+  - edit the file "source_data.json"
+  - see if the revisions look good at http://localhost:3000
+  - docker build a new image
+  - push the new image
 
 ## Building a production image
 
@@ -30,13 +30,11 @@ NODE_ENV=development
 
 then, `docker-compose up -d`
 
-  Site at localhost:3001
+  Site at localhost:3000
 
   - `docker-compose down` to stop it
 
 
-To revise the app, revised the code in the ./app folder.  Nodemon inside the container will auto-reload the app whenever you revise ./app.  This works because the ./app folder on your local computer is volume mounted inside the container.  Any revisions to ./app is reflected inside container.
+To revise the app, edit the code in the ./app folder.  Nodemon inside the container will auto-reload the app whenever you revise ./app.  This works because the ./app folder on your local computer is volume mounted inside the container.  Any revisions to ./app is reflected inside container.
 
-To revise the source data, edit the source_data.json file.  The app will pull the latest changes on browser refresh.  The source_data.json gets baked into in the image, so pushing the image to production pushes the latest changes.
-
-Push any code changes to gitlab.
+To revise the source data, edit the "source_data.json" file.  The app will pull the latest changes on browser refresh.  The source_data.json gets baked into in the image, so pushing the image to production pushes the latest changes.
