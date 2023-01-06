@@ -63,3 +63,4 @@ typings/
 package-lock.json
 .env
 node-modules/
+.DS_Store
