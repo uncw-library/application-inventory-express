@@ -2,7 +2,6 @@
     "servers": [
     {
         "name": "3rd party apps",
-        "ip": "",
         "desc": "Apps not hosted at uncw",
         "apps": [
         {
@@ -35,7 +34,6 @@
     },
     {
         "name": "libapps.uncw.edu",
-        "ip": "152.20.7.89",
         "desc": "Server containing public-facing applications",
         "apps": [
         {
@@ -338,7 +336,6 @@
     },
     {
         "name": "libapps-staff.uncw.edu",
-        "ip": "152.20.7.16",
         "desc": "Server containing staff-facing applications",
         "apps": [
         {
@@ -794,7 +791,6 @@
     },
     {
         "name": "randallwebvm.uncw.edu",
-        "ip": "152.20.225.220",
         "desc": "Server containing our main library website and important sub sites",
         "apps": [
         {
@@ -890,13 +886,11 @@
     },
     {
         "name": "itsrandalldev.uncw.edu",
-        "ip": "152.20.225.247",
         "desc": "Oxygen licensing server",
         "apps": []
     },
     {
         "name": "itslibdigital.uncw.edu",
-        "ip": "152.20.240.75",
         "desc": "",
         "apps": [
         {
@@ -947,7 +941,6 @@
     },
     {
         "name": "sierra-app.uncw.edu",
-        "ip": "152.20.242.96",
         "desc": "",
         "apps": [
         {
@@ -962,7 +955,6 @@
     },
     {
         "name": "randallstafftest.uncw.edu",
-        "ip": "152.20.242.92",
         "desc": "Archivematica test installation",
         "apps": [
         {
@@ -977,7 +969,6 @@
     },
     {
         "name": "archivesspace.uncw.edu",
-        "ip": "152.20.7.50",
         "desc": "",
         "apps": [
         {
@@ -1001,7 +992,6 @@
     },
     {
         "name": "archivesspace-dev.uncw.edu",
-        "ip": "152.20.7.156",
         "desc": "",
         "apps": [
         {
@@ -1025,13 +1015,11 @@
     },
     {
         "name": "libpharos01.uncw.edu",
-        "ip": "152.20.225.221",
         "desc": "Guest computer sign-in server, web app for circ use for monitoring and adding/removing users, admin and reporting software for the Pharos sign up system",
         "apps": []
     },
     {
         "name": "illiad.uncw.edu",
-        "ip": "152.20.225.230",
         "desc": "Illiad interlibrary loan software and apps",
         "apps": [
         {
@@ -1046,7 +1034,6 @@
     },
     {
         "name": "itslibpp01.uncw.edu",
-        "ip": "152.20.225.234",
         "desc": "PastPerfect Museum software server and database",
         "apps": [
         {
@@ -1061,7 +1048,6 @@
     },
     {
         "name": "liblink.uncw.edu",
-        "ip": "152.20.225.249",
         "desc": "EZProxy server",
         "apps": [
         {
